@@ -5,115 +5,212 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Дмитрий Остен Сакен — личный сайт</title>
   <meta
-  name="description"
-  content="Личный сайт Дмитрия Остен Сакена: бизнес, AI-проекты, недвижимость, яхтенные экспедиции и стратегические инициативы."
-/>
+    name="description"
+    content="Личный сайт Дмитрия Остен Сакена: бизнес, AI-проекты, недвижимость, яхтенные экспедиции и стратегические инициативы."
+  />
+  <meta name="theme-color" content="#020617" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:title" content="Дмитрий Остен Сакен — личный сайт" />
+  <meta
+    property="og:description"
+    content="Предприниматель, визионер и создатель стратегических проектов в бизнесе, AI, недвижимости и морских экспедициях."
+  />
+  <meta property="og:url" content="https://osacken-hub.github.io/my-first-website/" />
+  <meta property="og:image" content="https://osacken-hub.github.io/my-first-website/images/avatar.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header>
-    <h1>Дмитрий Остен Сакен</h1>
+  <header class="site-header">
+    <a class="site-logo" href="#">Дмитрий Остен Сакен</a>
 
-    <nav>
-      <a href="#about">Обо мне</a>
-      <a href="#projects">Проекты</a>
-      <a href="#contacts">Контакты</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Открыть меню">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="#about" class="nav-link">Обо мне</a>
+      <a href="#projects" class="nav-link">Проекты</a>
+      <a href="#contacts" class="nav-link">Контакты</a>
     </nav>
   </header>
 
   <main>
     <section class="hero">
-        <div class="hero-content">
-          <p class="hero-label">Личный сайт</p>
-      
-          <h2>Дмитрий Остен Сакен</h2>
-      
-          <p class="hero-subtitle">
-            Предприниматель, визионер и создатель стратегических проектов
-            в бизнесе, AI, недвижимости и морских экспедициях.
-          </p>
-      
-          <div class="hero-buttons">
-            <a class="button primary-button" href="#projects">Посмотреть проекты</a>
-            <a class="button secondary-button" href="#contacts">Связаться</a>
-          </div>
-        </div>
-      
-        <div class="hero-image">
-          <img src="images/avatar.jpg" alt="Дмитрий Остен Сакен" />
-        </div>
-      </section>
+      <div class="hero-content reveal">
+        <p class="hero-label">Личный сайт</p>
 
-      <section id="projects">
-        <div class="section-header">
-          <p class="section-label">Направления</p>
-          <h2>Ключевые проекты</h2>
-          <p>
-            Несколько направлений, которые объединяют бизнес, технологии,
-            стратегическое управление и исследовательский подход.
-          </p>
-        </div>
-      
-        <div class="projects-grid">
-          <article class="project-card">
-            <div class="project-number">01</div>
-            <h3>Бизнес и недвижимость</h3>
-            <p>
-              Развитие торговых центров, инвестиционных проектов,
-              коммерческой недвижимости и управленческих систем.
-            </p>
-          </article>
-      
-          <article class="project-card">
-            <div class="project-number">02</div>
-            <h3>AI-системы</h3>
-            <p>
-              Создание интеллектуальных агентов для бизнеса, здоровья,
-              управления, аналитики и автоматизации процессов.
-            </p>
-          </article>
-      
-          <article class="project-card">
-            <div class="project-number">03</div>
-            <h3>Яхта и экспедиции</h3>
-            <p>
-              Морские путешествия, исследования, подводная археология,
-              документальные проекты и экспедиционная логистика.
-            </p>
-          </article>
-        </div>
-      </section>
+        <h2>Дмитрий Остен Сакен</h2>
 
-      <section id="contacts">
-        <div class="section-header">
-          <p class="section-label">Связь</p>
-          <h2>Контакты</h2>
-          <p>
-            Для обсуждения проектов, партнёрств и деловых предложений
-            можно связаться удобным способом.
-          </p>
+        <p class="hero-subtitle">
+          Предприниматель, визионер и создатель стратегических проектов
+          в бизнесе, AI, недвижимости и морских экспедициях.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="button primary-button" href="#projects">Посмотреть проекты</a>
+          <a class="button secondary-button" href="#contacts">Связаться</a>
         </div>
-      
+      </div>
+
+      <div class="hero-image reveal">
+        <img src="images/avatar.jpg" alt="Дмитрий Остен Сакен" width="280" height="280" />
+      </div>
+    </section>
+
+    <section id="about" class="reveal">
+      <div class="section-header">
+        <p class="section-label">Биография</p>
+        <h2>Обо мне</h2>
+        <p>
+          Предприниматель с фокусом на стратегическое развитие, технологии
+          и масштабные проекты на стыке бизнеса, инноваций и исследований.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-card">
+          <h3>Подход</h3>
+          <p>
+            Объединяю управленческий опыт, системное мышление и технологические
+            решения для создания устойчивых бизнес-моделей и новых продуктов.
+          </p>
+          <p>
+            Работаю на стыке стратегии, операционного управления и внедрения
+            AI-инструментов в реальные процессы.
+          </p>
+        </article>
+
+        <article class="about-card">
+          <h3>Направления</h3>
+          <p>
+            Коммерческая недвижимость, инвестиционные инициативы, AI-системы
+            для бизнеса и здоровья, морские экспедиции и документальные проекты.
+          </p>
+          <p>
+            Каждое направление — часть единой стратегии: создавать проекты
+            с долгосрочной ценностью и измеримым результатом.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="reveal">
+      <div class="section-header">
+        <p class="section-label">Направления</p>
+        <h2>Ключевые проекты</h2>
+        <p>
+          Несколько направлений, которые объединяют бизнес, технологии,
+          стратегическое управление и исследовательский подход.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-number">01</div>
+          <h3>Бизнес и недвижимость</h3>
+          <p>
+            Развитие торговых центров, инвестиционных проектов,
+            коммерческой недвижимости и управленческих систем.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <h3>AI-системы</h3>
+          <p>
+            Создание интеллектуальных агентов для бизнеса, здоровья,
+            управления, аналитики и автоматизации процессов.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">03</div>
+          <h3>Яхта и экспедиции</h3>
+          <p>
+            Морские путешествия, исследования, подводная археология,
+            документальные проекты и экспедиционная логистика.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacts" class="reveal">
+      <div class="section-header">
+        <p class="section-label">Связь</p>
+        <h2>Контакты</h2>
+        <p>
+          Для обсуждения проектов, партнёрств и деловых предложений
+          можно связаться удобным способом или отправить сообщение через форму.
+        </p>
+      </div>
+
+      <div class="contacts-layout">
         <div class="contacts-list">
-          <a href="mailto:example@email.com" class="contact-link">
+          <a href="mailto:example@email.com" class="contact-link" id="contactEmail">
             Email: example@email.com
           </a>
-      
-          <a href="https://t.me/username" class="contact-link" target="_blank">
+
+          <a
+            href="https://t.me/username"
+            class="contact-link"
+            id="contactTelegram"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Telegram: @username
           </a>
-      
-          <a href="tel:+10000000000" class="contact-link">
+
+          <a href="tel:+10000000000" class="contact-link" id="contactPhone">
             Телефон: +1 000 000 0000
           </a>
         </div>
-      </section>
 
-  <footer>
+        <form class="contact-form" id="contactForm" novalidate>
+          <label>
+            Ваше имя
+            <input type="text" id="nameInput" name="name" placeholder="Введите имя" required autocomplete="name" />
+          </label>
+
+          <label>
+            Email
+            <input type="email" id="emailInput" name="email" placeholder="Введите email" required autocomplete="email" />
+          </label>
+
+          <label>
+            Сообщение
+            <textarea id="messageInput" name="message" rows="5" placeholder="Введите сообщение" required></textarea>
+          </label>
+
+          <button type="submit" id="submitButton">Отправить сообщение</button>
+
+          <p class="form-message" id="formMessage" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <nav class="footer-nav">
+      <a href="#about">Обо мне</a>
+      <a href="#projects">Проекты</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
     <p>© 2026 Дмитрий Остен Сакен</p>
   </footer>
 
+  <script src="site-config.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

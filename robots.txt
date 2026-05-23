@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://osacken-hub.github.io/my-first-website/sitemap.xml
