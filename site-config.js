@@ -3,9 +3,9 @@ window.SITE_CONFIG = {
   formspreeEndpoint: "",
 
   contacts: {
-    email: "example@email.com",
-    telegram: "username",
-    phone: "+10000000000",
-    phoneDisplay: "+1 000 000 0000",
+    email: "osacken@gmail.com",
+    telegram: "apostolmoon",
+    phone: "+79100999998",
+    phoneDisplay: "+7 910 099-99-98",
   },
 };
